@@ -1,0 +1,110 @@
+.admin-container {
+    max-width: 95%;
+    margin: auto;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  select {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .form-table th,
+  .form-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .status.pending {
+    color: orange;
+    font-weight: bold;
+  }
+  .status.approved {
+    color: green;
+    font-weight: bold;
+  }
+  .status.rejected {
+    color: red;
+    font-weight: bold;
+  }
+  
+  a {
+    display: block;
+    color: #0984e3;
+    text-decoration: none;
+  }
+
+  .logout-btn {
+    background-color: #e84118;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin-top: 20px; */
+    margin-bottom: 15px;
+    float: right;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c23616;
+  }
+
+  .form-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .form-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-card p {
+    margin: 6px 0;
+  }
+  
+  .status.pending {
+    color: orange;
+    font-weight: bold;
+  }
+  .status.approved {
+    color: green;
+    font-weight: bold;
+  }
+  .status.rejected {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .doc-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #0984e3;
+  }
+  
+  
